@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
     rp = rospkg.RosPack()
     
-    currentPath = rp.get_path("lane_detection_example")
+    currentPath = rp.get_path("beginner_tutorials")
     
     with open(os.path.join(currentPath, 'sensor/sensor_params.json'), 'r') as fp:
         sensor_params = json.load(fp)
