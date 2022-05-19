@@ -25,8 +25,8 @@ class IMGParser:
         self.lower_ylane = np.array([0,60,100])
         self.upper_ylane = np.array([40,175,255])
 
-        # self.crop_pts = np.array([[[0,240],[0,230],[140,110],[180,110],[320,230],[320,240]]])
-        self.crop_pts = np.array([[[0,240],[0,200],[140,120],[180,120],[320,200],[320,240]]])
+        self.crop_pts = np.array([[[0,240],[0,230],[140,110],[180,110],[320,230],[320,240]]])
+        # self.crop_pts = np.array([[[0,240],[0,200],[140,120],[180,120],[320,200],[320,240]]])
 
     def callback(self, msg):
         try:
