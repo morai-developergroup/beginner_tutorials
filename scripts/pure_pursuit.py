@@ -28,7 +28,7 @@ class pure_pursuit :
         self.current_postion=Point()
         self.is_look_forward_point=False
         self.vehicle_length=1
-        self.lfd=3
+        self.lfd=1
 
         rate = rospy.Rate(30) # 30hz
         while not rospy.is_shutdown():
